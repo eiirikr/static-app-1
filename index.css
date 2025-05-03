@@ -169,7 +169,7 @@ nav {
 }
 
 #contact form input {
-  width: 509px;
+  width: 80%;
   height: 72px;
 
   top: 35px;
@@ -189,7 +189,7 @@ nav {
   background: #ffffff;
   border: 1px solid #b59066 !important;
   border-radius: 0 !important;
-  width: 509px;
+  width: 80%;
   height: 210px;
   opacity: 1;
   top: 35px;
@@ -225,4 +225,103 @@ footer {
 
   color: rgba(255, 242, 228, 1);
   background: rgba(181, 144, 102, 1);
+}
+
+@media (max-width: 768px) {
+  #title {
+    width: 100%;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #navbarNavAltMarkup {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .hero-des {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #hero p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  #base {
+    width: 100%;
+    font-size: 18px;
+    height: auto;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+
+  #lo-go {
+    height: 36px;
+    left: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #intro {
+    font-size: 28px !important;
+    text-align: center;
+  }
+
+  #introTxt {
+    font-size: 18px !important;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .carousel-item > img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .core-title,
+  .other-title {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+
+  #about h3,
+  #contact-header {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #about p,
+  #contact-text {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  #contact form input,
+  #contact form textarea {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  #form-btn {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  footer {
+    font-size: 14px;
+    line-height: 18px;
+    height: auto;
+    padding: 10px;
+  }
 }
